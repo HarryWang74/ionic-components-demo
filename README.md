@@ -1,6 +1,6 @@
 <h1>Run project</h1>
 
-<h2>Browser test<h2>
+<h2>Browser test</h2>
 <p>$ionic serve</p>
 
 <h2>Deploy to connect Android device</h2>
