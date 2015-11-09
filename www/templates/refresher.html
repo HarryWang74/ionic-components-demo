@@ -1,0 +1,12 @@
+<ion-view cache-view="false">
+ <ion-nav-title>Refresher</ion-nav-title>
+<ion-content class="padding">
+  <h1>Refresher</h1>
+  <p>Drop to reload the page</p>
+  <ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()">
+  </ion-refresher>
+  <ion-list>
+    <ion-item ng-repeat="item in items"></ion-item>
+  </ion-list>
+</ion-content>
+</ion-view>

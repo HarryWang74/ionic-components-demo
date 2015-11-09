@@ -1,0 +1,53 @@
+<ion-view>
+  <ion-nav-title>Form Components</ion-nav-title>
+  <ion-content class="padding">
+    <h1>Input</h1>
+    <div class="list">
+        <label class="item item-input">
+            <input type="text" placeholder="First Name">
+        </label>
+        <label class="item item-input">
+            <input type="text" placeholder="Last Name">
+        </label>
+    </div>
+
+    <h1>Checkbox</h1>
+    <ion-checkbox ng-model="isChecked">Checkbox Label</ion-checkbox>
+    <ul class="list">
+        <li class="item item-checkbox">
+            <label class="checkbox"><input type="checkbox"></label>
+            Flux Capacitor
+        </li>
+    </ul>
+
+    <h1>Radio buttons</h1>
+    <ion-radio ng-model="choice" ng-value="'A'">Choose A</ion-radio>
+    <ion-radio ng-model="choice" ng-value="'B'">Choose B</ion-radio>
+
+    <h1>Toggle</h1>
+    <ion-toggle ng-model="airplaneMode" toggle-class="toggle-calm">Airplane Mode</ion-toggle>
+
+    <h1>Range</h1>
+    <div class="item range">
+        <i class="icon ion-volume-low"></i>
+        <input type="range" name="volume">
+        <i class="icon ion-volume-high"></i>
+    </div>
+
+    <h1>Select</h1>
+    <div class="list">
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Lightsaber
+        </div>
+        <select>
+          <option>Blue</option>
+          <option selected>Green</option>
+          <option>Red</option>
+        </select>
+      </label>
+
+    </div>
+  </ion-content>
+</ion-view>
